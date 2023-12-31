@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704044838860,
+  "lastUpdate": 1704049890755,
   "repoUrl": "https://github.com/tommysor/TestBenchmarks_2023",
   "entries": {
     "History of benchmarks": [
@@ -144,6 +144,42 @@ window.BENCHMARK_DATA = {
             "value": 100637441.83157893,
             "unit": "ns",
             "range": "± 2154889.182840614"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tommysor@gmail.com",
+            "name": "Tommy Sørbråten",
+            "username": "tommysor"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "542aecad23130c6243f3421362cc018e2b9c350c",
+          "message": "DoOtherStuff slow down a lot (#2)\n\n* DoOtherStuff slow down a lot\r\n\r\n* Lower threshold\r\n\r\n* summary\r\n\r\n* DoOtherStuff back to existing performance\r\n\r\n* Auto push\r\n\r\n* Auto push revert\r\n\r\n* reduce yml\r\n\r\n* Slow down\r\n\r\n* a\r\n\r\n* a\r\n\r\n* aa\r\n\r\n* a\r\n\r\n* a\r\n\r\n* a",
+          "timestamp": "2023-12-31T20:10:24+01:00",
+          "tree_id": "de2260f491a74b69d0ab51e557ccc69e3b045297",
+          "url": "https://github.com/tommysor/TestBenchmarks_2023/commit/542aecad23130c6243f3421362cc018e2b9c350c"
+        },
+        "date": 1704049889891,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BenchmarkProj.Benchmarks.DoStuff",
+            "value": 96265778.5,
+            "unit": "ns",
+            "range": "± 2322003.25568162"
+          },
+          {
+            "name": "BenchmarkProj.Benchmarks.DoOtherStuff",
+            "value": 150229415.77941176,
+            "unit": "ns",
+            "range": "± 2914260.3188782255"
           }
         ]
       }
