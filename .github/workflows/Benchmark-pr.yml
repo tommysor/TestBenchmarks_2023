@@ -30,7 +30,7 @@ jobs:
         # Access token to deploy GitHub Pages branch
         github-token: ${{ secrets.GITHUB_TOKEN }}
         # Push and deploy GitHub pages branch automatically
-        auto-push: true
+        auto-push: false
         summary-always: true
         alert-threshold: '120%'
         fail-on-alert: true
