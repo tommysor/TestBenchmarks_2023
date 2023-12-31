@@ -38,4 +38,4 @@ jobs:
         # Push and deploy GitHub pages branch automatically
         auto-push: false
         #summary-always: true
-        #fail-on-alert: true
+        fail-on-alert: true
