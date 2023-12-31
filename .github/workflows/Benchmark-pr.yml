@@ -24,13 +24,10 @@ jobs:
     - name: Store benchmark result
       uses: benchmark-action/github-action-benchmark@v1
       with:
-        name: History of benchmarks
+        name: Benchmarks
         tool: 'benchmarkdotnet'
         output-file-path: benchmarks/BenchmarkProj/BenchmarkDotNet.Artifacts/results/BenchmarkProj.Benchmarks-report-full-compressed.json
-        # Access token to deploy GitHub Pages branch
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        # Push and deploy GitHub pages branch automatically
+        #github-token: ${{ secrets.GITHUB_TOKEN }}
         auto-push: false
-        summary-always: true
         alert-threshold: '120%'
         fail-on-alert: true
