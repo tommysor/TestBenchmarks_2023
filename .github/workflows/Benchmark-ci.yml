@@ -24,6 +24,7 @@ jobs:
         pushd ./benchmarks/BenchmarkProj/
         dotnet run --configuration Release -- --filter '*' --exporters json
         popd
+      name: Run benchmark
 
     # gh-pages branch is updated and pushed automatically with extracted benchmark data
     - name: Store benchmark result
@@ -35,4 +36,4 @@ jobs:
         # Access token to deploy GitHub Pages branch
         github-token: ${{ secrets.GITHUB_TOKEN }}
         # Push and deploy GitHub pages branch automatically
-        auto-push: false
+        auto-push: true
