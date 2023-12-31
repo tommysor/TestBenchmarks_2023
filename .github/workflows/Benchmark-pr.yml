@@ -24,7 +24,7 @@ jobs:
     - name: Store benchmark result
       uses: benchmark-action/github-action-benchmark@v1
       with:
-        name: Benchmarks
+        name: History of benchmarks
         tool: 'benchmarkdotnet'
         output-file-path: benchmarks/BenchmarkProj/BenchmarkDotNet.Artifacts/results/BenchmarkProj.Benchmarks-report-full-compressed.json
         github-token: ${{ secrets.GITHUB_TOKEN }}
