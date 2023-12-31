@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704041151064,
+  "lastUpdate": 1704044838860,
   "repoUrl": "https://github.com/tommysor/TestBenchmarks_2023",
   "entries": {
     "History of benchmarks": [
@@ -108,6 +108,42 @@ window.BENCHMARK_DATA = {
             "value": 100381317.51333335,
             "unit": "ns",
             "range": "± 2958714.665963103"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tommysor@gmail.com",
+            "name": "Tommy Sørbråten",
+            "username": "tommysor"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "483e8f2f7fa78737d34837a2f50fe2ddcaa51a87",
+          "message": "Add benchmark pr workflow (#1)\n\n* Add benchmark pr workflow\r\n\r\n* t\r\n\r\n* summary\r\n\r\n* t\r\n\r\n* fail on alert\r\n\r\n* permission test\r\n\r\n* a\r\n\r\n* a",
+          "timestamp": "2023-12-31T18:46:16+01:00",
+          "tree_id": "f0f358e6605ef587605cee78a34367a75bdd2abc",
+          "url": "https://github.com/tommysor/TestBenchmarks_2023/commit/483e8f2f7fa78737d34837a2f50fe2ddcaa51a87"
+        },
+        "date": 1704044838510,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BenchmarkProj.Benchmarks.DoStuff",
+            "value": 96371895.02222222,
+            "unit": "ns",
+            "range": "± 1528229.4055017508"
+          },
+          {
+            "name": "BenchmarkProj.Benchmarks.DoOtherStuff",
+            "value": 100637441.83157893,
+            "unit": "ns",
+            "range": "± 2154889.182840614"
           }
         ]
       }
