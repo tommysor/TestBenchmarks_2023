@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704040943118,
+  "lastUpdate": 1704041151064,
   "repoUrl": "https://github.com/tommysor/TestBenchmarks_2023",
   "entries": {
     "History of benchmarks": [
@@ -72,6 +72,42 @@ window.BENCHMARK_DATA = {
             "value": 101608692.60416664,
             "unit": "ns",
             "range": "± 2552172.9237951706"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tommysor@gmail.com",
+            "name": "Tommy Sørbråten",
+            "username": "tommysor"
+          },
+          "committer": {
+            "email": "tommysor@gmail.com",
+            "name": "Tommy Sørbråten",
+            "username": "tommysor"
+          },
+          "distinct": true,
+          "id": "b4b8a59a889b35d53f3e3d4920e65a72f03fdc5d",
+          "message": "DoStuff Speed up slightly",
+          "timestamp": "2023-12-31T16:44:45Z",
+          "tree_id": "9a3e0f3268cdb733da12fd02a32c9567c20eb987",
+          "url": "https://github.com/tommysor/TestBenchmarks_2023/commit/b4b8a59a889b35d53f3e3d4920e65a72f03fdc5d"
+        },
+        "date": 1704041150231,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BenchmarkProj.Benchmarks.DoStuff",
+            "value": 96449201.84210527,
+            "unit": "ns",
+            "range": "± 2073443.670212097"
+          },
+          {
+            "name": "BenchmarkProj.Benchmarks.DoOtherStuff",
+            "value": 100381317.51333335,
+            "unit": "ns",
+            "range": "± 2958714.665963103"
           }
         ]
       }
