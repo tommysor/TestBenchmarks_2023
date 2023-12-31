@@ -20,7 +20,6 @@ jobs:
         popd
       name: Run benchmark
 
-    # gh-pages branch is updated and pushed automatically with extracted benchmark data
     - name: Store benchmark result
       uses: benchmark-action/github-action-benchmark@v1
       with:
