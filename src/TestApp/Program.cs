@@ -12,3 +12,5 @@ var startTime2 = Stopwatch.GetTimestamp();
 await someClass.DoOtherStuff();
 var elapsed2 = Stopwatch.GetElapsedTime(startTime2);
 Console.WriteLine($"{nameof(someClass.DoOtherStuff)} in {elapsed2}");
+
+Console.WriteLine("Done");
