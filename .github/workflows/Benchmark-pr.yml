@@ -8,11 +8,11 @@ concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: true
 
-permissions:
+#permissions:
   # deployments permission to deploy GitHub pages website
-  deployments: write
+  #deployments: write
   # contents permission to update benchmark contents in gh-pages branch
-  contents: write
+  #contents: write
 
 jobs:
   benchmark:
