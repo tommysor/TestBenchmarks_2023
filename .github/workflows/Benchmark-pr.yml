@@ -20,17 +20,12 @@ jobs:
         popd
       name: Run benchmark
 
-    # gh-pages branch is updated and pushed automatically with extracted benchmark data
     - name: Store benchmark result
       uses: benchmark-action/github-action-benchmark@v1
       with:
         name: History of benchmarks
         tool: 'benchmarkdotnet'
         output-file-path: benchmarks/BenchmarkProj/BenchmarkDotNet.Artifacts/results/BenchmarkProj.Benchmarks-report-full-compressed.json
-        # Access token to deploy GitHub Pages branch
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        # Push and deploy GitHub pages branch automatically
         auto-push: false
-        #summary-always: true
-        alert-threshold: '200%'
+        alert-threshold: '120%'
         fail-on-alert: true
