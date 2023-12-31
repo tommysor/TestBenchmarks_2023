@@ -20,7 +20,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - run: dotnet run --configuration Release -- --filter '*' --exporters json
+    - run: |
+        pushd ./benchmarks/BenchmarkProj/
+        dotnet run --configuration Release -- --filter '*' --exporters json
+        popd
 
     # gh-pages branch is updated and pushed automatically with extracted benchmark data
     - name: Store benchmark result
