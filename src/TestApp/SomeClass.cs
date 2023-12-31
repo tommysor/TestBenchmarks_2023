@@ -13,6 +13,6 @@ public class SomeClass
     {
         const int jitterScale = 10;
         var jitter = Random.Shared.Next(-jitterScale, jitterScale);
-        await Task.Delay(100 + jitter);
+        await Task.Delay(130 + jitter);
     }
 }
